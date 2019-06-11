@@ -1,0 +1,19 @@
+{
+  "name": "api_test_automation",
+  "version": "1.0.0",
+  "description": "automation for api testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
